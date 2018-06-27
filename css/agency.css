@@ -576,7 +576,9 @@ section h3.section-subheading {
 }
 .team-member img {
   margin: 0 auto;
-  border: 7px solid white;
+  border: 5px solid white;
+  height: 50%;
+  width: 30%;
 }
 .team-member h4 {
   margin-top: 25px;
@@ -587,7 +589,7 @@ section h3.section-subheading {
   margin-top: 0;
 }
 aside.clients img {
-  margin: 50px auto;
+  margin-left: 110px;
 }
 section#contact {
   background-color: #222222;
