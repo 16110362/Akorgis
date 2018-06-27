@@ -780,3 +780,7 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #fed136;
 }
+
+.subscribe{
+  align-items: center;
+}
