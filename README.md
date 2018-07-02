@@ -1,37 +1,70 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Agency](http://startbootstrap.com/template-overviews/agency/)
+NIM Kelompok :
 
-[Agency](http://startbootstrap.com/template-overviews/agency/) is a one page agency portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, a responsive timeline, and a working PHP contact form.
+16.11.0362 16.11.0357 16.11.0349 16.11.0358 16.11.0388
 
-## Getting Started
+Judul Project : Akorgis (Aktif Organisasi)
 
-Several options are available to get started quickly:
-* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/agency/)
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-agency.git`
-* Fork the repo
+Kategory : Fundraising
 
-## Developing Using Source Files
+Deskripsi : Akorgis adalah media yang membantu UKM atau organisasi mahasiswa dalam mengadakan sebuah event terutama dalam bidang pencarian Sponsor atau donatur event. akorgis juga membantu event organisasi dalam pencarian panitia dalam bentuk open reqruitment panitia dari halaman event yang dibuat
 
-To use the source files, you will need to have npm installed globally along with Gulp.js. To start:
-* Run `npm install` in the root directory
-* Run `gulp dev` and edit the files as needed
+Fitur : Homepage : 	- Sign In 
+			- Sign Up 
+			- Search 
+			- About 
+			- Contact 
+			- Event 
+			- Colom Subscribe 
+			- Daftar UKM
 
-If you need to update the plugins included with this template, simply run the following tasks:
-* First run `npm update` to update the dependencies
-* Then run `gulp copy` to copy the new versions to their proper destinations
+Sign In		: 	- Form Sign In
+			- Facebook
+			- Google
 
-## Bugs and Issues
+Sign Up		: 	- Form Sign Up
+			- Facebook
+			- Google
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-agency/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/agency/).
+Akun Personal	: 	- Daftar UKM
+			- Profile
+			- Switch Akun
+			- Setting
 
-## Creator
+Daftar UKM	: 	- Form UKM
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+Setting		: 	- Edit Profile
+			- Notifikation
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+UKM		: 	- Profile
+			- Create Event
+			- Contact
+			- Setting
+			- Follow
+			- History
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+History		: 	- Event
+			- Status event
 
-## Copyright and License
+Create Event	: 	- Upload Proposal
+			- Form event
+			- List Features : - Open Donatur
+					  - Open Reqruitment Panitia
 
-Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-agency/blob/gh-pages/LICENSE) license.
+Event		: 	- Profile
+			- Donasi
+			- Open Reqruitment Panitia
+			- Proposal
+
+Donasi		: 	- Preview Proposal
+			- syarat & Ketentuan
+			- Form Donasi
+
+Reqruitment 	: 	- Form Daftar
+			- Upload Berkas
+
+Notifikasi	: pesan
+
+About		: tentang Aplikasi
+
+Contact 	: contact Aplikasi
+
