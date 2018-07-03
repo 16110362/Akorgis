@@ -8,6 +8,8 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="https://code.jquery.com/jquery-2.1.3.js"></script>
 	<script src="js/bootstrap.js"></script>
+  <link rel="stylesheet" href="css/form-validation.css">
+
 </head>
 <body>
   <!-- Navigasi -->
@@ -34,29 +36,92 @@
 </nav>
 
 <!-- Event -->
-  <div class="container bg-light">
-    <div class="row">
-      <div class="col-md-12"></div>
-    </div>
-    <div class="row">
-      <div class="col-md-2"></div>
-      <div class="col-md-7 ">
-        <h1>Make Event</h1>
-        <label>Nama Event</label><br>
-        <input type="text" name="namaEvent" placeholder="Nama Event"><br>
-        <label>Upload Proposal</label><br>
-        <input type="file" name="pdf" accept=".pdf"><br>
-        <label>Poster Event</label><br>
-        <input type="file" name="image" accept=".jpg, .jpeg, .png"><br>
-        <label>Batas tanggal donasi</label><br>
-        <input type="date" name="tanggal"><br>
-        <label>Deskripsi</label><br>
-        <textarea placeholder="Masukkan deskripsi event"></textarea><br>
-        <button class="btn-primary">Submit</button>
-      </div>
-      <div class="col-md-2"></div>
-    </div>
-  </div>
+  <form class="form-validation" method="post" action="EventIn.html">
+
+            <div class="form-title-row">
+                <h1>Galang Dana</h1>
+            </div>
+
+            <div class="form-row ">
+
+                <label>
+                    <span>Nama Event</span>
+                    <input type="text" name="name" required>
+                </label>
+                
+            </div>
+
+            <div class="form-row ">
+
+                <label>
+                    <span>Poster</span>
+                    <input type="file" name="name" accept=".jpg, .png, .jpeg" required>
+                </label>
+                
+            </div>
+
+            <div class="form-row ">
+
+                <label>
+                    <span>Proposal</span>
+                    <input type="file" name="name" accept=".pdf" required>
+                </label>
+                
+            </div>
+
+            <div class="form-row ">
+
+                <label>
+                    <span>Target Donasi</span>
+                    <input type="number" name="name" placeholder="Rp.0" required>
+                </label>
+
+            </div>
+
+            <div class="form-row ">
+
+                <label>
+                    <span>Batas Tanggal Donasi</span>
+                    <input type="date" required>
+                </label>
+                
+            </div>
+
+            <div class="form-row form-input-email-row">
+
+                <label>
+                    <span>Email</span>
+                    <input type="email" name="email" placeholder="email@example.com" required>
+                </label>
+
+            </div>
+
+            <div class="form-row ">
+
+                <label>
+                    <span>Telp.</span>
+                    <input type="number" pattern="^\d{12}$"  required>
+                </label>
+               
+            </div>
+
+            <div class="form-row ">
+
+                <label>
+                    <span>Deskripsi Event</span>
+                    <textarea placeholder="" required></textarea>
+                </label>
+                
+
+            </div>
+
+            <div class="form-row">
+
+                <button type="submit">Submit</button>
+
+            </div>
+
+        </form>
 
 
 </body>
