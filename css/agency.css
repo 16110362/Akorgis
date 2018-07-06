@@ -843,3 +843,9 @@ background: linear-gradient(to bottom, #222222 0%, #ffff00 99%);
   background-color: #303030;
   border-color: #303030;
 }
+
+.app img {
+  margin: 0 auto;
+  border: 0px;
+  height: 50%;
+  width: 30%;
