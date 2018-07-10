@@ -816,6 +816,7 @@ body {
 
 section#getapp {
   background: linear-gradient(to bottom, #ffff00 99%, #ffffff 0%);
+  text-align: center;
 }
 
 section#subscribe {
@@ -849,3 +850,4 @@ background: linear-gradient(to bottom, #222222 0%, #ffff00 99%);
   border: 0px;
   height: 50%;
   width: 30%;
+}
