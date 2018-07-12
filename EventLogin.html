@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Event UKM</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+	<nav class="navbar navbar-expand-lg sticky-top">
+  		<a class="navbar-brand" href="#">AKORGIS</a>
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    		<span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+  		</button>
+  		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+  			<form class="form-search" method="get" action="#">
+            	<input type="search" name="search" placeholder="Search..">
+            	<button type="submit">Search</button>
+            	<i class="fa fa-search"></i>
+        	</form>
+    		<ul class="navbar-nav ml-auto">
+      			<li class="nav-item">
+              <a class="nav-link" href="EventLogin.html">Donasi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="CEvent.html">Galang Dana</a>
+            </li>
+      			<li class="nav-item">
+        			<div class="dropdown">
+                		<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+		                  <i class="fas fa-user-circle"></i>
+        	        </button>
+            	    <div class="dropdown-menu dropdown-menu-right">
+                	  <h4 class="dropdown-header">User</h4>	
+	                  <a class="dropdown-item" href="persAkunUKM.html">View Profile</a>
+    	              <a class="dropdown-item" href="EventNLogin.html">Sign Out</a>
+        	        </div>
+            	  </div>
+      			</li>    
+    		</ul>
+ 		</div>  
+	</nav>
+
+<!-- content -->
+<div class="kategory">
+	<select class="form-control ml-auto" id="kategory">
+      	<option>Semua kategory</option>
+      	<option>Seminar</option>
+      	<option>Drama/teater</option>
+      	<option>Bakti Sosial</option>
+      	<option>Kompetisi</option>
+    </select>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="card" onclick="location.href='eventNIn.html'">
+			<div class="iEvent">
+				<img src="image/dramus.png">
+			</div>
+			<div class="desc">
+				<h4>Drama Musikal</h4>
+				<span>
+					Ikatan Keluarga Nasrani Amikom<br>
+					Yogyakarta
+				</span>
+			</div>
+			<div class="sHari">
+				<table style="width: 100%;">
+					<tr>
+						<td>
+							<p>sisa hari</p>
+						</td>
+						<td>
+							<p>3</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="iEvent">
+				<img src="image/semAEC.jpeg">
+			</div>
+			<div class="desc">
+				<h4>English Day Seminar</h4>
+				<span>
+					Amikom English Club<br>
+					Yogyakarta
+				</span>
+			</div>
+			<div class="sHari">
+				<table style="width: 100%;">
+					<tr>
+						<td>
+							<p>sisa hari</p>
+						</td>
+						<td>
+							<p>5</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="iEvent">
+				<img src="image/semAMCC.jpg">
+			</div>
+			<div class="desc">
+				<h4>Seminar BlokChain 2018</h4>
+				<span>
+					Amikom Computer Club<br>
+					Yogyakarta
+				</span>
+			</div>
+			<div class="sHari">
+				<table style="width: 100%;">
+					<tr>
+						<td>
+							<p>sisa hari</p>
+						</td>
+						<td>
+							<p>1</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="iEvent">
+				<img src="image/semHMIF.jpg">
+			</div>
+			<div class="desc">
+				<h4>Seminar Nasional</h4>
+				<span>
+					Himpunan Mahasiswa Informatika<br>
+					Yogyakarta
+				</span>
+			</div>
+			<div class="sHari">
+				<table style="width: 100%;">
+					<tr>
+						<td>
+							<p>sisa hari</p>
+						</td>
+						<td>
+							<p>12</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="iEvent">
+				<img src="image/semUKI.jpeg">
+			</div>
+			<div class="desc">
+				<h4>Woman Sharing</h4>
+				<span>
+					UKI JASTHIS<br>
+					Yogyakarta
+				</span>
+			</div>
+			<div class="sHari">
+				<table style="width: 100%;">
+					<tr>
+						<td>
+							<p>sisa hari</p>
+						</td>
+						<td>
+							<p>4</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+	<!-- footer -->
+ <!-- footer -->
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h4>Contact Info</h4>
+        <p><i class="fas fa-map-marker-alt"></i>  Amikom, Yogyakarta</p>
+        <p><i class="fas fa-phone"></i> Phone: +6281234567890</p>
+        <p><i class="fas fa-envelope"></i> Email: mail@mail.com</p>
+      </div>
+      <div class="col">
+        <h4>Message Us</h4>
+        <p>Have an idea or something.</p>
+        <form>
+            <label for="field1">
+                <span>Enter Your Name</span><input type="text" name="field1" required="true" />
+            </label>
+            <label for="field2">
+                <span>Email Address</span><input type="email" name="field2" required="true" />
+            </label>
+            <label for="field4">
+                <span>Message to Us</span><textarea name="field4" onkeyup="adjust_textarea(this)" required="true"></textarea>
+            </label>
+            <label>
+                <span>&nbsp;</span><input type="submit" value="Send Letter" />
+            </label>
+        </form>
+      </div>
+      <div class="col sosmed">
+        <h4>Like Us</h4>
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-pinterest-square"></i>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-linkedin-in"></i>
+      </div>
+    </div>
+  </div>
+</div>  
+	
+
+</body>
+
+</html>
