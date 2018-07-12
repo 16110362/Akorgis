@@ -1,113 +1,159 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Akorgis</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="https://code.jquery.com/jquery-2.1.3.js"></script>
-	<script src="js/bootstrap.js"></script>
-  <link rel="stylesheet" href="css/form-basic.css">
+    <title>Donasi</title>
+  
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/akorgis.js"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/akorgis.js"></script>
+
 
 </head>
 
-
 <body>
-  <!-- Navigasi -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-  <a class="navbar-brand" href="index.html">AKORGIS |</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Event <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Galang Dana</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
+<nav class="navbar navbar-expand-lg sticky-top">
+      <a class="navbar-brand" href="#">AKORGIS</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <form class="form-search" method="get" action="#">
+              <input type="search" name="search" placeholder="Search..">
+              <button type="submit">Search</button>
+              <i class="fa fa-search"></i>
+          </form>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="EventLogin.html">Donasi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="CEvent.html">Galang Dana</a>
+            </li>
+            <li class="nav-item">
 
-<!-- donasi -->
-          <form class="form-basic" method="post" action="Event.html">
-
-            <div class="form-title-row">
-                <h1>DONASI</h1>
-            </div>
-
-            <div class="form-row">
-                <label>
-                    <span>Jumlah Donasi</span>
-                    <input type="number" name="name">
-                </label>
-            </div>
-
-            <div class="container">
-                <label><span>Metode Pembayaran</span></label>
-                <div class="form-radio-buttons">
-
-                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Tutorials
-    <span class="caret"></span></button>
-
-                    <div>
-                        <label>
-                            <input type="radio" name="radio">
-                            <span>Transfer BNI</span>
-                        </label>
-                    </div>
-
-                    <div>
-                        <label>
-                            <input type="radio" name="radio">
-                            <span>Transfer BCA</span>
-                        </label>
-                    </div>
-
-                    <div>
-                        <label>
-                            <input type="radio" name="radio">
-                            <span>Transfer Mandiri</span>
-                        </label>
-                    </div>
-                    <div>
-                        <label>
-                            <input type="radio" name="radio">
-                            <span>GO-PAY</span>
-                        </label>
-                    </div>
-
+              <div class="dropdown">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                  <i class="fas fa-user-circle"></i>
+                </button>
+                <div class="dropdown-menu dropdown-menu-right">
+                  <h4 class="dropdown-header">User</h4>
+                  <a class="dropdown-item" href="persAkunUKM.html">View Profile</a>
+                  <a class="dropdown-item" href="EventNLogin.html">Sign Out</a>
                 </div>
-            </div>
-            <div class="form-row">
-                <label>
-                    <span>Dukungan atau komentar</span>
-                    <textarea name="textarea"></textarea>
-                </label>
-            </div>
+              </div>
+   
+            </li>    
+        </ul>
+    </div>  
+  </nav>
 
-            <div class="form-row">
-                <label>
-                  <span></span>
-                    <input type="checkbox" name="checkbox" checked>I agree to the <a href="#">terms and conditions</a>
-                </label>
+<!-- content -->
+
+<div class="card1">
+
+    <form action="eventIn.html">
+        <div class="judul">
+            <h1>Donasi</h1>
+        </div>
+        
+        <div class="formC">
+        <div>
+            <label>Jumlah Donasi</label><br>
+            <input type="number" name="nama" placeholder="" required="">
+        </div>
+        <div>
+            <label>Komentar atau Dukungan</label><br>
+            <textarea placeholder="" onkeyup="adjust_textarea(this)" required=""></textarea>
+        </div>        
+        <div>
+            <label>Metode Pembayaran</label><br>
+
+            <div class="radio">
+
+            <div>
+                <input type="radio" name="Transfer">
+                <label>Transfer BRI</label>  
             </div>
-
-
-            <div class="form-row">
-                <button type="submit">Submit</button>
+            <div>
+                <input type="radio" name="Transfer">
+                <label>Transfer BNI</label>  
             </div>
+            <div>
+                <input type="radio" name="Transfer">
+                <label>Transfer BCA</label>  
+            </div>
+            <div>
+                <input type="radio" name="Transfer">
+                <label>Transfer Mandiri</label>  
+            </div>
+            <div>
+                <input type="radio" name="Transfer">
+                <label>GO-PAY</label>  
+            </div> 
+            </div>
+            
+        </div>
+        <div>
+            <input type="checkbox" name="" checked> Iagree to the <a href="#">term and conditions</a>
+        </div>
+        <button type="submit">DONASI</button>
+        </div>
+       
+    </form>
 
+</div>
+
+ <!-- footer -->
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h4>Contact Info</h4>
+        <p><i class="fas fa-map-marker-alt"></i>  Amikom, Yogyakarta</p>
+        <p><i class="fas fa-phone"></i> Phone: +6281234567890</p>
+        <p><i class="fas fa-envelope"></i> Email: mail@mail.com</p>
+      </div>
+      <div class="col">
+        <h4>Message Us</h4>
+        <p>Have an idea or something.</p>
+        <form>
+            <label for="field1">
+                <span>Enter Your Name</span><input type="text" name="field1" required="true" />
+            </label>
+            <label for="field2">
+                <span>Email Address</span><input type="email" name="field2" required="true" />
+            </label>
+            <label for="field4">
+                <span>Message</span><textarea name="field4" onkeyup="adjust_textarea(this)" required="true"></textarea>
+            </label>
+            <label>
+                <span>&nbsp;</span><input type="submit" value="Send Letter" />
+            </label>
         </form>
-
+      </div>
+      <div class="col sosmed">
+        <h4>Like Us</h4>
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-pinterest-square"></i>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-linkedin-in"></i>
+      </div>
+    </div>
+  </div>
+</div>  
 
 </body>
+
 </html>
