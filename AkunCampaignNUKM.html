@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profile: Username</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <script type="text/javascript" src="js/akorgis.js"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg sticky-top">
+      <a class="navbar-brand" href="#">AKORGIS</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <form class="form-search" method="get" action="#">
+              <input type="search" name="search" placeholder="Search..">
+              <button type="submit">Search</button>
+              <i class="fa fa-search"></i>
+          </form>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="EventLogin.html">Donasi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="CEvent.html">Galang Dana</a>
+            </li>
+            <li class="nav-item">
+
+              <div class="dropdown">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                  <i class="fas fa-user-circle"></i>
+                </button>
+                <div class="dropdown-menu dropdown-menu-right">
+                  <h4 class="dropdown-header">User</h4>
+                  <a class="dropdown-item" href="persAkunUKM.html">View Profile</a>
+                  <a class="dropdown-item" href="EventNLogin.html">Sign Out</a>
+                </div>
+              </div>
+   
+            </li>    
+        </ul>
+    </div>  
+  </nav>
+
+
+
+<div class="nav-side-menu">
+	<div class="profImg">
+    		<img src="image/prof.jpg">
+    	</div>
+    	<div class="profName">
+    		<label>Username</label>
+    	</div>
+    <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+    <div class="menu-list">
+        <ul id="menu-content" class="menu-content collapse out">
+            <li onclick="location.href='persAkun.html'">
+              <a href="persAkunUKM.html">Profile</a>
+            </li>
+            <li onclick="location.href='AkunDonasiNUKM.html'">
+              <a href="AkunDonasiNUKM.html">Donasi</a>
+            </li>
+            <li class="aktif" onclick="location.href='AkunCampaign.html'">
+              <a href="AkunCampaignNUKM.html">Campaign</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="container" id="main">
+    <div class="row w-100">
+        <div class="col-md-11 card2">
+        	<div class="labelProf">
+        		<h1>Campaign</h1>
+        	</div>
+          <div class="inf">
+            <label>Belum terdaftar sebagai UKM/Organisasi </label><a href="DaftarUKM.html"> Daftar Sekarang</a>
+          </div>
+        	
+        </div>        
+    </div>
+
+</div>
+</body>
+</html>
